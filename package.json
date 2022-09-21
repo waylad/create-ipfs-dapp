@@ -56,5 +56,10 @@
     "*.{js,json,yml,yaml,css,scss,ts,tsx,md}": [
       "prettier --write"
     ]
+  },
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "ethers": "^5.7.1",
+    "ipfs-http-client": "^55.0.0"
   }
 }
