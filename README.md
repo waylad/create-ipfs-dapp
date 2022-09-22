@@ -8,7 +8,7 @@ On the other side, when I build an IPFS app, I always have to copy/paste my IPFS
 
 ## About create-ipfs-dapp
 
-I've created a package that can bootstrap a basic IPFS Dapp with just one command `npx create-ipfs-dapp`, no need to install anything.
+As part of the Developer Tooling track, I've created a package that can bootstrap a basic IPFS Dapp with just one command `npx create-ipfs-dapp`, no need to install anything.
 
 I've deployed my ipfs-template and create-ipfs-dapp packages on npm: https://www.npmjs.com/search?q=create-ipfs-dapp, so as long as you have node and npm, you can just run :
 
