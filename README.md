@@ -1,12 +1,16 @@
 # Create IPFS Dapp
 
+Demo video:
+
 I really like [create-react-app](https://github.com/facebook/create-react-app). You can just run `npx create-react-app` in your terminal and it will bootstrap a simple react application for you. It is used by thousands of developers around the world to easily get started ith a new react project.
 
 On the other side, when I build an IPFS app, I always have to copy/paste my IPFS elements from my other projects to my new one, so I thought: It would be very usefull to have the equivalent of `create-react-app` but for IPFS. Introducing `create-ipfs-dapp` !
 
 ## About create-ipfs-dapp
 
-I've created a package that can bootstrap a basic IPFS Dapp with just one command `npx create-ipfs-dapp`, no need to install anything. As long as you have node and npm, you can run create-ipfs-dapp. To test is, just run :
+I've created a package that can bootstrap a basic IPFS Dapp with just one command `npx create-ipfs-dapp`, no need to install anything.
+
+I've deployed my ipfs-template and create-ipfs-dapp packages on npm: https://www.npmjs.com/search?q=create-ipfs-dapp, so as long as you have node and npm, you can just run :
 
 ```sh
 npx create-ipfs-dapp my-dapp

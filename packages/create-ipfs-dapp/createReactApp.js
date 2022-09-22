@@ -407,7 +407,13 @@ function run(
     getInstallPackage(version, originalDirectory),
     getTemplateInstallPackage(template, originalDirectory),
   ]).then(([packageToInstall, templateToInstall]) => {
-    const allDependencies = ['react', 'react-dom', packageToInstall];
+    const allDependencies = [
+      'react',
+      'react-dom',
+      'buffer',
+      'ipfs-http-client@55.0.0',
+      packageToInstall,
+    ];
 
     console.log('Installing packages. This might take a couple of minutes.');
 
@@ -839,7 +845,13 @@ function checkAppName(appName) {
   }
 
   // TODO: there should be a single place that holds the dependencies
-  const dependencies = ['react', 'react-dom', 'react-scripts'].sort();
+  const dependencies = [
+    'react',
+    'react-dom',
+    'react-scripts',
+    'buffer',
+    'ipfs-http-client@55.0.0',
+  ].sort();
   if (dependencies.includes(appName)) {
     console.error(
       chalk.red(
@@ -894,6 +906,8 @@ function setCaretRangeForRuntimeDeps(packageName) {
 
   makeCaretRange(packageJson.dependencies, 'react');
   makeCaretRange(packageJson.dependencies, 'react-dom');
+  makeCaretRange(packageJson.dependencies, 'buffer');
+  makeCaretRange(packageJson.dependencies, 'ipfs-http-client@55.0.0');
 
   fs.writeFileSync(packagePath, JSON.stringify(packageJson, null, 2) + os.EOL);
 }
