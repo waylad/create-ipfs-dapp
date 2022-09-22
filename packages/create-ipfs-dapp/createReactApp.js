@@ -112,7 +112,7 @@ function init() {
       console.log(`    A custom ${chalk.cyan('--template')} can be one of:`);
       console.log(
         `      - a custom template published on npm: ${chalk.green(
-          'cra-template-typescript'
+          'ipfs-template-typescript'
         )}`
       );
       console.log(
@@ -595,7 +595,7 @@ function getInstallPackage(version, originalDirectory) {
 }
 
 function getTemplateInstallPackage(template, originalDirectory) {
-  let templateToInstall = 'cra-template';
+  let templateToInstall = 'ipfs-template';
   if (template) {
     if (template.match(/^file:/)) {
       templateToInstall = `file:${path.resolve(
@@ -609,7 +609,7 @@ function getTemplateInstallPackage(template, originalDirectory) {
       // for tar.gz or alternative paths
       templateToInstall = template;
     } else {
-      // Add prefix 'cra-template-' to non-prefixed templates, leaving any
+      // Add prefix 'ipfs-template-' to non-prefixed templates, leaving any
       // @scope/ and @version intact.
       const packageMatch = template.match(/^(@[^/]+\/)?([^@]+)?(@.+)?$/);
       const scope = packageMatch[1] || '';
@@ -621,16 +621,16 @@ function getTemplateInstallPackage(template, originalDirectory) {
         templateName.startsWith(`${templateToInstall}-`)
       ) {
         // Covers:
-        // - cra-template
-        // - @SCOPE/cra-template
-        // - cra-template-NAME
-        // - @SCOPE/cra-template-NAME
+        // - ipfs-template
+        // - @SCOPE/ipfs-template
+        // - ipfs-template-NAME
+        // - @SCOPE/ipfs-template-NAME
         templateToInstall = `${scope}${templateName}${version}`;
       } else if (version && !scope && !templateName) {
         // Covers using @SCOPE only
         templateToInstall = `${version}/${templateToInstall}`;
       } else {
-        // Covers templates without the `cra-template` prefix:
+        // Covers templates without the `ipfs-template` prefix:
         // - NAME
         // - @SCOPE/NAME
         templateToInstall = `${scope}${templateToInstall}-${templateName}${version}`;

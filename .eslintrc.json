@@ -19,7 +19,7 @@
     {
       "files": [
         "docusaurus/website/src/**/*.js",
-        "packages/cra-template/**/*.js",
+        "packages/ipfs-template/**/*.js",
         "packages/react-error-overlay/**/*.js",
         "packages/react-scripts/fixtures/kitchensink/template/{src,integration}/**/*.js",
         "test/fixtures/*/src/*.js"

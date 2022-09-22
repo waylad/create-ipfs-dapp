@@ -68,13 +68,13 @@ You can now optionally start a new app from a template by appending `--template 
 
 If you don't select a template, we'll create your project with our base template.
 
-Templates are always named in the format `cra-template-[template-name]`, however you only need to provide the `[template-name]` to the creation command.
+Templates are always named in the format `ipfs-template-[template-name]`, however you only need to provide the `[template-name]` to the creation command.
 
 ```sh
 npx create-ipfs-dapp my-app --template [template-name]
 ```
 
-> You can find a list of available templates by searching for ["cra-template-\*"](https://www.npmjs.com/search?q=cra-template-*) on npm.
+> You can find a list of available templates by searching for ["ipfs-template-\*"](https://www.npmjs.com/search?q=ipfs-template-*) on npm.
 
 Our [Custom Templates](custom-templates.md) documentation describes how you can build your own template.
 

@@ -1,4 +1,4 @@
-# cra-template-typescript
+# ipfs-template-typescript
 
 This is the official TypeScript template for [Create React App](https://github.com/waylad/create-ipfs-dapp).
 

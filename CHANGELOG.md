@@ -27,9 +27,9 @@ yarn add --exact react-scripts@5.0.1
 
 #### :nail_care: Enhancement
 
-- `cra-template-typescript`, `cra-template`, `react-scripts`
+- `ipfs-template-typescript`, `ipfs-template`, `react-scripts`
   - [#12220](https://github.com/waylad/create-ipfs-dapp/pull/12220) Update templates to use React 18 `createRoot` ([@kyletsang](https://github.com/kyletsang))
-- `cra-template-typescript`, `cra-template`
+- `ipfs-template-typescript`, `ipfs-template`
   - [#12223](https://github.com/waylad/create-ipfs-dapp/pull/12223) chore: upgrade rtl version to support react 18 ([@MatanBobi](https://github.com/MatanBobi))
 - `eslint-config-react-app`
   - [#11622](https://github.com/waylad/create-ipfs-dapp/pull/11622) updated deprecated rules ([@wisammechano](https://github.com/wisammechano))
@@ -107,7 +107,7 @@ Node 10 reached End-of-Life in April 2021 and Node 12 will be End-of-Life in Apr
 
 - `create-ipfs-dapp`
   - [#11322](https://github.com/waylad/create-ipfs-dapp/pull/11322) Use env var to detect yarn or npm as the package manager ([@lukekarrys](https://github.com/lukekarrys))
-- `babel-preset-react-app`, `cra-template-typescript`, `cra-template`, `create-ipfs-dapp`, `eslint-config-react-app`, `react-app-polyfill`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+- `babel-preset-react-app`, `ipfs-template-typescript`, `ipfs-template`, `create-ipfs-dapp`, `eslint-config-react-app`, `react-app-polyfill`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
   - [#11201](https://github.com/waylad/create-ipfs-dapp/pull/11201) Webpack 5 ([@raix](https://github.com/raix))
 - `eslint-config-react-app`, `react-error-overlay`, `react-scripts`
   - [#10761](https://github.com/waylad/create-ipfs-dapp/pull/10761) chore: migrate to @babel/eslint-parser ([@JLHwung](https://github.com/JLHwung))
@@ -142,7 +142,7 @@ Node 10 reached End-of-Life in April 2021 and Node 12 will be End-of-Life in Apr
 - Other
   - [#11619](https://github.com/waylad/create-ipfs-dapp/pull/11619) The default port used by `serve` has changed ([@leo](https://github.com/leo))
   - [#10907](https://github.com/waylad/create-ipfs-dapp/pull/10907) Fix link address ([@e-w-h](https://github.com/e-w-h))
-  - [#10805](https://github.com/waylad/create-ipfs-dapp/pull/10805) Update PWA docs to point at the cra-template-pwa package ([@slieschke](https://github.com/slieschke))
+  - [#10805](https://github.com/waylad/create-ipfs-dapp/pull/10805) Update PWA docs to point at the ipfs-template-pwa package ([@slieschke](https://github.com/slieschke))
   - [#10631](https://github.com/waylad/create-ipfs-dapp/pull/10631) Update IMAGE_INLINE_SIZE_LIMIT docs ([@ianschmitz](https://github.com/ianschmitz))
 - `eslint-config-react-app`
   - [#10317](https://github.com/waylad/create-ipfs-dapp/pull/10317) eslint-config-react-app typo fix ([@Spacerat](https://github.com/Spacerat))
@@ -150,7 +150,7 @@ Node 10 reached End-of-Life in April 2021 and Node 12 will be End-of-Life in Apr
   - [#10779](https://github.com/waylad/create-ipfs-dapp/pull/10779) Suggest sass instead of node-sass package ([@andrewywong](https://github.com/andrewywong))
 - `babel-preset-react-app`, `eslint-config-react-app`
   - [#10288](https://github.com/waylad/create-ipfs-dapp/pull/10288) Upgrade docs http links to https ([@xom9ikk](https://github.com/xom9ikk))
-- `cra-template`
+- `ipfs-template`
   - [#10763](https://github.com/waylad/create-ipfs-dapp/pull/10763) Trivial English fixes ([@ujihisa](https://github.com/ujihisa))
 
 #### :house: Internal
@@ -170,11 +170,11 @@ Node 10 reached End-of-Life in April 2021 and Node 12 will be End-of-Life in Apr
   - [#10784](https://github.com/waylad/create-ipfs-dapp/pull/10784) Remove outdated comments on react-refresh ([@luk3kang](https://github.com/luk3kang))
 - `babel-plugin-named-asset-import`, `confusing-browser-globals`, `create-ipfs-dapp`, `eslint-config-react-app`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
   - [#11474](https://github.com/waylad/create-ipfs-dapp/pull/11474) Remove dependency pinning ([@mrmckeb](https://github.com/mrmckeb))
-- `confusing-browser-globals`, `cra-template-typescript`, `cra-template`, `create-ipfs-dapp`
+- `confusing-browser-globals`, `ipfs-template-typescript`, `ipfs-template`, `create-ipfs-dapp`
   - [#11415](https://github.com/waylad/create-ipfs-dapp/pull/11415) Bump template dependency version ([@shfshanyue](https://github.com/shfshanyue))
 - `react-error-overlay`, `react-scripts`
   - [#11304](https://github.com/waylad/create-ipfs-dapp/pull/11304) Use npm v7 with workspaces for local development and testing ([@lukekarrys](https://github.com/lukekarrys))
-- `babel-preset-react-app`, `cra-template-typescript`, `cra-template`, `create-ipfs-dapp`, `eslint-config-react-app`, `react-app-polyfill`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+- `babel-preset-react-app`, `ipfs-template-typescript`, `ipfs-template`, `create-ipfs-dapp`, `eslint-config-react-app`, `react-app-polyfill`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
   - [#11201](https://github.com/waylad/create-ipfs-dapp/pull/11201) Webpack 5 ([@raix](https://github.com/raix))
 
 #### :hammer: Underlying Tools

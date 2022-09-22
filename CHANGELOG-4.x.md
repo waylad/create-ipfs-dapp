@@ -81,9 +81,9 @@ v4.0.2 is a maintenance release that includes minor bug fixes and documentation 
   - [#10213](https://github.com/waylad/create-ipfs-dapp/pull/10213) Upgrade @svgr/webpack to fix build error ([@jabranr](https://github.com/jabranr))
 - `react-dev-utils`
   - [#10198](https://github.com/waylad/create-ipfs-dapp/pull/10198) remove chalk from formatWebpackMessages ([@jasonwilliams](https://github.com/jasonwilliams))
-- `cra-template-typescript`
+- `ipfs-template-typescript`
   - [#10141](https://github.com/waylad/create-ipfs-dapp/pull/10141) chore: bump typescript version ([@trainto](https://github.com/trainto))
-- `cra-template-typescript`, `cra-template`
+- `ipfs-template-typescript`, `ipfs-template`
   - [#10143](https://github.com/waylad/create-ipfs-dapp/pull/10143) chore: bump web-vital dependency version ([@sahilpurav](https://github.com/sahilpurav))
 
 #### Committers: 15
@@ -146,7 +146,7 @@ v4.0.1 is a maintenance release that includes minor bug fixes and documentation 
 
 - `create-ipfs-dapp`, `react-dev-utils`, `react-scripts`
   - [#10083](https://github.com/waylad/create-ipfs-dapp/pull/10083) replace inquirer with prompts ([@EvanBacon](https://github.com/EvanBacon))
-- `cra-template-typescript`, `cra-template`, `react-scripts`
+- `ipfs-template-typescript`, `ipfs-template`, `react-scripts`
   - [#9516](https://github.com/waylad/create-ipfs-dapp/pull/9516) [ImgBot] Optimize images ([@MichaelDeBoey](https://github.com/MichaelDeBoey))
 - Other
   - [#9860](https://github.com/waylad/create-ipfs-dapp/pull/9860) chore: Update .prettierrc ([@MichaelDeBoey](https://github.com/MichaelDeBoey))
@@ -229,7 +229,7 @@ We've upgraded to Jest 26 and now set `resetMocks` to `true` by default in the J
 
 ### Service workers
 
-We've switched to the Workbox InjectManifest plugin and moved the PWA templates into their own [repository](https://github.com/cra-template/pwa).
+We've switched to the Workbox InjectManifest plugin and moved the PWA templates into their own [repository](https://github.com/ipfs-template/pwa).
 
 ### Removed `typescript` flag and `NODE_PATH` support
 
@@ -256,7 +256,7 @@ Node 8 reached End-of-Life at the end of 2019 and is no longer supported.
   - [#8838](https://github.com/waylad/create-ipfs-dapp/pull/8838) Support devDependencies in templates ([@mrmckeb](https://github.com/mrmckeb))
 - `create-ipfs-dapp`
   - [#9359](https://github.com/waylad/create-ipfs-dapp/pull/9359) feat: exit on outdated create-ipfs-dapp version ([@mrmckeb](https://github.com/mrmckeb))
-- `cra-template-typescript`, `cra-template`, `react-scripts`
+- `ipfs-template-typescript`, `ipfs-template`, `react-scripts`
   - [#9205](https://github.com/waylad/create-ipfs-dapp/pull/9205) Switch to the Workbox InjectManifest plugin ([@jeffposnick](https://github.com/jeffposnick))
 - `react-dev-utils`, `react-scripts`
   - [#8582](https://github.com/waylad/create-ipfs-dapp/pull/8582) Add experimental react-refresh support ([@charrondev](https://github.com/charrondev))
@@ -266,13 +266,13 @@ Node 8 reached End-of-Life at the end of 2019 and is no longer supported.
 - `eslint-config-react-app`, `react-error-overlay`, `react-scripts`
   - [#8963](https://github.com/waylad/create-ipfs-dapp/pull/8963) feat(eslint-config-react-app): Add jest & testing-library rules ([@MichaelDeBoey](https://github.com/MichaelDeBoey))
   - [#8978](https://github.com/waylad/create-ipfs-dapp/pull/8978) Support ESLint 7.x ([@MichaelDeBoey](https://github.com/MichaelDeBoey))
-- `cra-template-typescript`, `cra-template`, `eslint-config-react-app`, `react-error-overlay`, `react-scripts`
+- `ipfs-template-typescript`, `ipfs-template`, `eslint-config-react-app`, `react-error-overlay`, `react-scripts`
   - [#9587](https://github.com/waylad/create-ipfs-dapp/pull/9587) Remove EXTEND_ESLINT and add Jest rules ([@mrmckeb](https://github.com/mrmckeb))
 - `eslint-config-react-app`
   - [#9401](https://github.com/waylad/create-ipfs-dapp/pull/9401) fix: remove deprecated rule ([@ljosberinn](https://github.com/ljosberinn))
 - `create-ipfs-dapp`
   - [#9359](https://github.com/waylad/create-ipfs-dapp/pull/9359) feat: exit on outdated create-ipfs-dapp version ([@mrmckeb](https://github.com/mrmckeb))
-- `cra-template-typescript`, `cra-template`, `react-scripts`
+- `ipfs-template-typescript`, `ipfs-template`, `react-scripts`
   - [#9205](https://github.com/waylad/create-ipfs-dapp/pull/9205) Switch to the Workbox InjectManifest plugin ([@jeffposnick](https://github.com/jeffposnick))
 - `babel-plugin-named-asset-import`, `confusing-browser-globals`, `create-ipfs-dapp`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
   - [#8955](https://github.com/waylad/create-ipfs-dapp/pull/8955) Upgrade to Jest 26 ([@ianschmitz](https://github.com/ianschmitz))
@@ -286,9 +286,9 @@ Node 8 reached End-of-Life at the end of 2019 and is no longer supported.
 - `eslint-config-react-app`, `react-scripts`
   - [#8926](https://github.com/waylad/create-ipfs-dapp/pull/8926) Add import/no-anonymous-default-export lint rule ([@shakib609](https://github.com/shakib609))
   - [#8939](https://github.com/waylad/create-ipfs-dapp/pull/8939) Bump React Hooks ESLint plugin to 4.0.0 ([@gaearon](https://github.com/gaearon))
-- `cra-template-typescript`, `cra-template`, `create-ipfs-dapp`, `react-app-polyfill`, `react-dev-utils`, `react-scripts`
+- `ipfs-template-typescript`, `ipfs-template`, `create-ipfs-dapp`, `react-app-polyfill`, `react-dev-utils`, `react-scripts`
   - [#8948](https://github.com/waylad/create-ipfs-dapp/pull/8948) Drop Node 8 support ([@ianschmitz](https://github.com/ianschmitz))
-- `babel-plugin-named-asset-import`, `babel-preset-react-app`, `confusing-browser-globals`, `cra-template-typescript`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+- `babel-plugin-named-asset-import`, `babel-preset-react-app`, `confusing-browser-globals`, `ipfs-template-typescript`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
   - [#8362](https://github.com/waylad/create-ipfs-dapp/pull/8362) Upgrade to Jest 25 ([@skovhus](https://github.com/skovhus))
 
 #### :bug: Bug Fix
@@ -312,7 +312,7 @@ Node 8 reached End-of-Life at the end of 2019 and is no longer supported.
   - [#8492](https://github.com/waylad/create-ipfs-dapp/pull/8492) Replace period in CSS Module classnames ([@evankennedy](https://github.com/evankennedy))
 - `react-dev-utils`, `react-scripts`
   - [#8694](https://github.com/waylad/create-ipfs-dapp/pull/8694) Use process.execPath to spawn node subprocess ([@anuraaga](https://github.com/anuraaga))
-- `cra-template-typescript`, `cra-template`, `react-scripts`
+- `ipfs-template-typescript`, `ipfs-template`, `react-scripts`
   - [#8734](https://github.com/waylad/create-ipfs-dapp/pull/8734) fix: handle templates without main package field ([@mrmckeb](https://github.com/mrmckeb))
 
 #### :nail_care: Enhancement
@@ -323,7 +323,7 @@ Node 8 reached End-of-Life at the end of 2019 and is no longer supported.
   - [#8834](https://github.com/waylad/create-ipfs-dapp/pull/8834) Don't use webpack multi entry unnecessarily ([@sebmarkbage](https://github.com/sebmarkbage))
 - `babel-preset-react-app`, `eslint-config-react-app`, `react-scripts`
   - [#9861](https://github.com/waylad/create-ipfs-dapp/pull/9861) New JSX Transform opt out ([@iansu](https://github.com/iansu))
-- `cra-template`
+- `ipfs-template`
   - [#9853](https://github.com/waylad/create-ipfs-dapp/pull/9853) feat: remove unused React imports ([@mrmckeb](https://github.com/mrmckeb))
 - `babel-preset-react-app`, `react-scripts`
   - [#9645](https://github.com/waylad/create-ipfs-dapp/pull/9645) Use new JSX transform with React 17 ([@iansu](https://github.com/iansu))
@@ -331,7 +331,7 @@ Node 8 reached End-of-Life at the end of 2019 and is no longer supported.
   - [#9350](https://github.com/waylad/create-ipfs-dapp/pull/9350) Add Fast Refresh warning when using React < 16.10 ([@iansu](https://github.com/iansu))
 - `react-dev-utils`, `react-error-overlay`, `react-scripts`
   - [#9375](https://github.com/waylad/create-ipfs-dapp/pull/9375) feat: better refresh plugin integration ([@pmmmwh](https://github.com/pmmmwh))
-- `cra-template-typescript`, `cra-template`
+- `ipfs-template-typescript`, `ipfs-template`
   - [#9116](https://github.com/waylad/create-ipfs-dapp/pull/9116) Add performance relayer + documentation (web-vitals) ([@housseindjirdeh](https://github.com/housseindjirdeh))
   - [#8705](https://github.com/waylad/create-ipfs-dapp/pull/8705) Update template tests ([@MichaelDeBoey](https://github.com/MichaelDeBoey))
 - `create-ipfs-dapp`
@@ -357,13 +357,13 @@ Node 8 reached End-of-Life at the end of 2019 and is no longer supported.
 - `react-dev-utils`
   - [#9471](https://github.com/waylad/create-ipfs-dapp/pull/9471) Fixes in the /packages/react-devs-utils/README.md file ([@caspero-62](https://github.com/caspero-62))
   - [#8651](https://github.com/waylad/create-ipfs-dapp/pull/8651) Update build script deployment URL ([@StenAL](https://github.com/StenAL))
-- `cra-template-typescript`, `cra-template`
+- `ipfs-template-typescript`, `ipfs-template`
   - [#9241](https://github.com/waylad/create-ipfs-dapp/pull/9241) Updated README.md Templates to Follow ESLint Markdown Rules ([@firehawk09](https://github.com/firehawk09))
   - [#8406](https://github.com/waylad/create-ipfs-dapp/pull/8406) Upgrade testing-library packages ([@gnapse](https://github.com/gnapse))
 - `react-scripts`
   - [#9244](https://github.com/waylad/create-ipfs-dapp/pull/9244) Explain how to uninstall create-ipfs-dapp globally ([@nickmccurdy](https://github.com/nickmccurdy))
   - [#8838](https://github.com/waylad/create-ipfs-dapp/pull/8838) Support devDependencies in templates ([@mrmckeb](https://github.com/mrmckeb))
-- `cra-template-typescript`, `cra-template`, `react-dev-utils`, `react-scripts`
+- `ipfs-template-typescript`, `ipfs-template`, `react-dev-utils`, `react-scripts`
   - [#8957](https://github.com/waylad/create-ipfs-dapp/pull/8957) Move shortlinks to cra.link ([@iansu](https://github.com/iansu))
 - `babel-preset-react-app`
   - [#5847](https://github.com/waylad/create-ipfs-dapp/pull/5847) Include absoluteRuntime in babel preset docs ([@iddan](https://github.com/iddan))
@@ -377,11 +377,11 @@ Node 8 reached End-of-Life at the end of 2019 and is no longer supported.
   - [#9102](https://github.com/waylad/create-ipfs-dapp/pull/9102) Replace Spectrum links with GitHub Discussions ([@iansu](https://github.com/iansu))
   - [#8656](https://github.com/waylad/create-ipfs-dapp/pull/8656) Bump acorn from 6.4.0 to 6.4.1 in /docusaurus/website ([@dependabot[bot]](https://github.com/apps/dependabot))
   - [#8749](https://github.com/waylad/create-ipfs-dapp/pull/8749) Specify what files are served form a bare local copy ([@challet](https://github.com/challet))
-- `cra-template-typescript`, `cra-template`
+- `ipfs-template-typescript`, `ipfs-template`
   - [#9252](https://github.com/waylad/create-ipfs-dapp/pull/9252) feat: Update testing-library dependencies to latest ([@MichaelDeBoey](https://github.com/MichaelDeBoey))
 - `react-dev-utils`
   - [#9059](https://github.com/waylad/create-ipfs-dapp/pull/9059) clean formatMessage usage ([@chenxsan](https://github.com/chenxsan))
-- `cra-template`
+- `ipfs-template`
   - [#7787](https://github.com/waylad/create-ipfs-dapp/pull/7787) Bump version of Verdaccio ([@ianschmitz](https://github.com/ianschmitz))
 - `babel-preset-react-app`
   - [#8858](https://github.com/waylad/create-ipfs-dapp/pull/8858) Remove outdated comment ([@availchet](https://github.com/availchet))
@@ -398,17 +398,17 @@ Node 8 reached End-of-Life at the end of 2019 and is no longer supported.
 - `react-error-overlay`, `react-scripts`
   - [#9863](https://github.com/waylad/create-ipfs-dapp/pull/9863) Upgrade to React 17 ([@iansu](https://github.com/iansu))
   - [#9856](https://github.com/waylad/create-ipfs-dapp/pull/9856) feat: Update ESLint dependencies ([@MichaelDeBoey](https://github.com/MichaelDeBoey))
-- `babel-plugin-named-asset-import`, `babel-preset-react-app`, `confusing-browser-globals`, `cra-template-typescript`, `cra-template`, `create-ipfs-dapp`, `eslint-config-react-app`, `react-app-polyfill`, `react-error-overlay`, `react-scripts`
+- `babel-plugin-named-asset-import`, `babel-preset-react-app`, `confusing-browser-globals`, `ipfs-template-typescript`, `ipfs-template`, `create-ipfs-dapp`, `eslint-config-react-app`, `react-app-polyfill`, `react-error-overlay`, `react-scripts`
   - [#9857](https://github.com/waylad/create-ipfs-dapp/pull/9857) feat: Update all dependencies ([@MichaelDeBoey](https://github.com/MichaelDeBoey))
 - `eslint-config-react-app`, `react-dev-utils`, `react-scripts`
   - [#9751](https://github.com/waylad/create-ipfs-dapp/pull/9751) Replace deprecated eslint-loader by eslint-webpack-plugin ([@tooppaaa](https://github.com/tooppaaa))
-- `babel-plugin-named-asset-import`, `babel-preset-react-app`, `confusing-browser-globals`, `cra-template-typescript`, `cra-template`, `create-ipfs-dapp`, `eslint-config-react-app`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+- `babel-plugin-named-asset-import`, `babel-preset-react-app`, `confusing-browser-globals`, `ipfs-template-typescript`, `ipfs-template`, `create-ipfs-dapp`, `eslint-config-react-app`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
   - [#9639](https://github.com/waylad/create-ipfs-dapp/pull/9639) Upgrade dependencies ([@ianschmitz](https://github.com/ianschmitz))
 - `eslint-config-react-app`, `react-error-overlay`, `react-scripts`
   - [#9434](https://github.com/waylad/create-ipfs-dapp/pull/9434) feat: Update ESLint dependencies ([@MichaelDeBoey](https://github.com/MichaelDeBoey))
   - [#9251](https://github.com/waylad/create-ipfs-dapp/pull/9251) feat: Update ESLint dependencies ([@MichaelDeBoey](https://github.com/MichaelDeBoey))
   - [#8978](https://github.com/waylad/create-ipfs-dapp/pull/8978) Support ESLint 7.x ([@MichaelDeBoey](https://github.com/MichaelDeBoey))
-- `cra-template-typescript`, `cra-template`
+- `ipfs-template-typescript`, `ipfs-template`
   - [#9526](https://github.com/waylad/create-ipfs-dapp/pull/9526) Update template dependencies to latest version ([@MichaelDeBoey](https://github.com/MichaelDeBoey))
   - [#8406](https://github.com/waylad/create-ipfs-dapp/pull/8406) Upgrade testing-library packages ([@gnapse](https://github.com/gnapse))
 - `react-app-polyfill`
@@ -417,7 +417,7 @@ Node 8 reached End-of-Life at the end of 2019 and is no longer supported.
   - [#8933](https://github.com/waylad/create-ipfs-dapp/pull/8933) Bump immer version ([@staff0rd](https://github.com/staff0rd))
 - `babel-plugin-named-asset-import`, `babel-preset-react-app`, `confusing-browser-globals`, `create-ipfs-dapp`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
   - [#9317](https://github.com/waylad/create-ipfs-dapp/pull/9317) Upgrade dependencies ([@ianschmitz](https://github.com/ianschmitz))
-- `babel-preset-react-app`, `cra-template-typescript`, `cra-template`, `create-ipfs-dapp`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+- `babel-preset-react-app`, `ipfs-template-typescript`, `ipfs-template`, `create-ipfs-dapp`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
   - [#9196](https://github.com/waylad/create-ipfs-dapp/pull/9196) Upgrade dependencies ([@ianschmitz](https://github.com/ianschmitz))
   - [#9132](https://github.com/waylad/create-ipfs-dapp/pull/9132) Upgrade dependencies ([@ianschmitz](https://github.com/ianschmitz))
 - `babel-plugin-named-asset-import`, `confusing-browser-globals`, `create-ipfs-dapp`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
@@ -429,7 +429,7 @@ Node 8 reached End-of-Life at the end of 2019 and is no longer supported.
   - [#8950](https://github.com/waylad/create-ipfs-dapp/pull/8950) Dependency major version upgrades ([@ianschmitz](https://github.com/ianschmitz))
 - `eslint-config-react-app`, `react-scripts`
   - [#8939](https://github.com/waylad/create-ipfs-dapp/pull/8939) Bump React Hooks ESLint plugin to 4.0.0 ([@gaearon](https://github.com/gaearon))
-- `babel-plugin-named-asset-import`, `babel-preset-react-app`, `confusing-browser-globals`, `cra-template-typescript`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+- `babel-plugin-named-asset-import`, `babel-preset-react-app`, `confusing-browser-globals`, `ipfs-template-typescript`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
   - [#8362](https://github.com/waylad/create-ipfs-dapp/pull/8362) Upgrade to Jest 25 ([@skovhus](https://github.com/skovhus))
 
 #### Committers: 63

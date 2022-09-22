@@ -10,73 +10,73 @@
 const { getTemplateInstallPackage } = require('../createReactApp');
 
 describe('getTemplateInstallPackage', () => {
-  it('no options gives cra-template', async () => {
-    await expect(getTemplateInstallPackage()).resolves.toBe('cra-template');
+  it('no options gives ipfs-template', async () => {
+    await expect(getTemplateInstallPackage()).resolves.toBe('ipfs-template');
   });
 
-  it('cra-template gives cra-template', async () => {
-    await expect(getTemplateInstallPackage('cra-template')).resolves.toBe(
-      'cra-template'
+  it('ipfs-template gives ipfs-template', async () => {
+    await expect(getTemplateInstallPackage('ipfs-template')).resolves.toBe(
+      'ipfs-template'
     );
   });
 
-  it('cra-template-typescript gives cra-template-typescript', async () => {
+  it('ipfs-template-typescript gives ipfs-template-typescript', async () => {
     await expect(
-      getTemplateInstallPackage('cra-template-typescript')
-    ).resolves.toBe('cra-template-typescript');
+      getTemplateInstallPackage('ipfs-template-typescript')
+    ).resolves.toBe('ipfs-template-typescript');
   });
 
-  it('typescript gives cra-template-typescript', async () => {
+  it('typescript gives ipfs-template-typescript', async () => {
     await expect(getTemplateInstallPackage('typescript')).resolves.toBe(
-      'cra-template-typescript'
+      'ipfs-template-typescript'
     );
   });
 
-  it('typescript@next gives cra-template-typescript@next', async () => {
+  it('typescript@next gives ipfs-template-typescript@next', async () => {
     await expect(getTemplateInstallPackage('typescript@next')).resolves.toBe(
-      'cra-template-typescript@next'
+      'ipfs-template-typescript@next'
     );
   });
 
-  it('cra-template@next gives cra-template@next', async () => {
-    await expect(getTemplateInstallPackage('cra-template@next')).resolves.toBe(
-      'cra-template@next'
+  it('ipfs-template@next gives ipfs-template@next', async () => {
+    await expect(getTemplateInstallPackage('ipfs-template@next')).resolves.toBe(
+      'ipfs-template@next'
     );
   });
 
-  it('cra-template-typescript@next gives cra-template-typescript@next', async () => {
+  it('ipfs-template-typescript@next gives ipfs-template-typescript@next', async () => {
     await expect(
-      getTemplateInstallPackage('cra-template-typescript@next')
-    ).resolves.toBe('cra-template-typescript@next');
+      getTemplateInstallPackage('ipfs-template-typescript@next')
+    ).resolves.toBe('ipfs-template-typescript@next');
   });
 
-  it('@iansu gives @iansu/cra-template', async () => {
+  it('@iansu gives @iansu/ipfs-template', async () => {
     await expect(getTemplateInstallPackage('@iansu')).resolves.toBe(
-      '@iansu/cra-template'
+      '@iansu/ipfs-template'
     );
   });
 
-  it('@iansu/cra-template gives @iansu/cra-template', async () => {
+  it('@iansu/ipfs-template gives @iansu/ipfs-template', async () => {
     await expect(
-      getTemplateInstallPackage('@iansu/cra-template')
-    ).resolves.toBe('@iansu/cra-template');
+      getTemplateInstallPackage('@iansu/ipfs-template')
+    ).resolves.toBe('@iansu/ipfs-template');
   });
 
-  it('@iansu/cra-template@next gives @iansu/cra-template@next', async () => {
+  it('@iansu/ipfs-template@next gives @iansu/ipfs-template@next', async () => {
     await expect(
-      getTemplateInstallPackage('@iansu/cra-template@next')
-    ).resolves.toBe('@iansu/cra-template@next');
+      getTemplateInstallPackage('@iansu/ipfs-template@next')
+    ).resolves.toBe('@iansu/ipfs-template@next');
   });
 
-  it('@iansu/cra-template-typescript@next gives @iansu/cra-template-typescript@next', async () => {
+  it('@iansu/ipfs-template-typescript@next gives @iansu/ipfs-template-typescript@next', async () => {
     await expect(
-      getTemplateInstallPackage('@iansu/cra-template-typescript@next')
-    ).resolves.toBe('@iansu/cra-template-typescript@next');
+      getTemplateInstallPackage('@iansu/ipfs-template-typescript@next')
+    ).resolves.toBe('@iansu/ipfs-template-typescript@next');
   });
 
-  it('http://example.com/cra-template.tar.gz gives http://example.com/cra-template.tar.gz', async () => {
+  it('http://example.com/ipfs-template.tar.gz gives http://example.com/ipfs-template.tar.gz', async () => {
     await expect(
-      getTemplateInstallPackage('http://example.com/cra-template.tar.gz')
-    ).resolves.toBe('http://example.com/cra-template.tar.gz');
+      getTemplateInstallPackage('http://example.com/ipfs-template.tar.gz')
+    ).resolves.toBe('http://example.com/ipfs-template.tar.gz');
   });
 });

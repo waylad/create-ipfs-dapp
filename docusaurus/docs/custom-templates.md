@@ -7,9 +7,9 @@ title: Custom Templates
 
 Custom Templates enable you to select a template to create your project from, while still retaining all of the features of Create React App.
 
-You'll notice that Custom Templates are always named in the format `cra-template-[template-name]`, however you only need to provide the `[template-name]` to the creation command.
+You'll notice that Custom Templates are always named in the format `ipfs-template-[template-name]`, however you only need to provide the `[template-name]` to the creation command.
 
-Scoped templates are also supported, under the name `@[scope-name]/cra-template` or `@[scope-name]/cra-template-[template-name]`, which can be installed via `@[scope]` and `@[scope]/[template-name]` respectively.
+Scoped templates are also supported, under the name `@[scope-name]/ipfs-template` or `@[scope-name]/ipfs-template-[template-name]`, which can be installed via `@[scope]` and `@[scope]/[template-name]` respectively.
 
 ```sh
 npx create-ipfs-dapp my-app --template [template-name]
@@ -19,19 +19,19 @@ npx create-ipfs-dapp my-app --template [template-name]
 
 We ship two templates by default:
 
-- [`cra-template`](https://github.com/waylad/create-ipfs-dapp/tree/main/packages/cra-template)
-- [`cra-template-typescript`](https://github.com/waylad/create-ipfs-dapp/tree/main/packages/cra-template-typescript)
+- [`ipfs-template`](https://github.com/waylad/create-ipfs-dapp/tree/main/packages/ipfs-template)
+- [`ipfs-template-typescript`](https://github.com/waylad/create-ipfs-dapp/tree/main/packages/ipfs-template-typescript)
 
-However, you can find many great community templates by searching for ["cra-template-\*"](https://www.npmjs.com/search?q=cra-template-*) on npm.
+However, you can find many great community templates by searching for ["ipfs-template-\*"](https://www.npmjs.com/search?q=ipfs-template-*) on npm.
 
 ## Building a template
 
-If you're interested in building a custom template, first take a look at how we've built [`cra-template`](https://github.com/waylad/create-ipfs-dapp/tree/main/packages/cra-template).
+If you're interested in building a custom template, first take a look at how we've built [`ipfs-template`](https://github.com/waylad/create-ipfs-dapp/tree/main/packages/ipfs-template).
 
 A template must have the following structure:
 
 ```
-cra-template-[template-name]/
+ipfs-template-[template-name]/
   README.md (for npm)
   template.json
   package.json
@@ -49,7 +49,7 @@ cra-template-[template-name]/
 To test a template locally, pass the file path to the directory of your template source using the `file:` prefix.
 
 ```sh
-npx create-ipfs-dapp my-app --template file:../path/to/your/template/cra-template-[template-name]
+npx create-ipfs-dapp my-app --template file:../path/to/your/template/ipfs-template-[template-name]
 ```
 
 ### The `template` folder

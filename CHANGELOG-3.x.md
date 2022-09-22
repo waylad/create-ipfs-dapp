@@ -63,12 +63,12 @@ v3.4.1 is a maintenance release that includes minor bug fixes and documentation 
   - [#7203](https://github.com/waylad/create-ipfs-dapp/pull/7203) Closes webpack dev server and exits process on "end" stdin ([@kelseyleftwich](https://github.com/kelseyleftwich))
 - `babel-preset-react-app`
   - [#8526](https://github.com/waylad/create-ipfs-dapp/pull/8526) Fix optional chaining and nullish coalescing support ([@ianschmitz](https://github.com/ianschmitz))
-- `cra-template`, `eslint-config-react-app`, `react-scripts`
+- `ipfs-template`, `eslint-config-react-app`, `react-scripts`
   - [#7790](https://github.com/waylad/create-ipfs-dapp/pull/7790) Widen eslint-config-react-app peer dependency versions ([@lukyth](https://github.com/lukyth))
 
 #### :nail_care: Enhancement
 
-- `cra-template-typescript`, `cra-template`
+- `ipfs-template-typescript`, `ipfs-template`
   - [#8558](https://github.com/waylad/create-ipfs-dapp/pull/8558) Add React.StrictMode to default templates ([@connkat](https://github.com/connkat))
 - `react-scripts`
   - [#8539](https://github.com/waylad/create-ipfs-dapp/pull/8539) allow specification of package.main in template.json ([@EvanBoyle](https://github.com/EvanBoyle))
@@ -127,9 +127,9 @@ v3.4.0 is a minor release that adds new features, including support for SSL and 
   - [#8439](https://github.com/waylad/create-ipfs-dapp/pull/8439) Downgrade chalk for ie 11 support ([@ianschmitz](https://github.com/ianschmitz))
 - `react-dev-utils`
   - [#8292](https://github.com/waylad/create-ipfs-dapp/pull/8292) Fixes unchecked access to 'deploy' script on build ([@renato-bohler](https://github.com/renato-bohler))
-- `cra-template-typescript`, `cra-template`
+- `ipfs-template-typescript`, `ipfs-template`
   - [#8272](https://github.com/waylad/create-ipfs-dapp/pull/8272) Handle service worker error in Firefox ([@rosinghal](https://github.com/rosinghal))
-- `cra-template-typescript`
+- `ipfs-template-typescript`
   - [#8403](https://github.com/waylad/create-ipfs-dapp/pull/8403) Fix robots.txt for TS ([@Kamahl19](https://github.com/Kamahl19))
 
 #### :nail_care: Enhancement
@@ -138,16 +138,16 @@ v3.4.0 is a minor release that adds new features, including support for SSL and 
   - [#8442](https://github.com/waylad/create-ipfs-dapp/pull/8442) fix(react-scripts): do not redirect served path if request may proxy ([@iamandrewluca](https://github.com/iamandrewluca))
   - [#7259](https://github.com/waylad/create-ipfs-dapp/pull/7259) feat(react-scripts): allow PUBLIC_URL in develoment mode ([@iamandrewluca](https://github.com/iamandrewluca))
   - [#7750](https://github.com/waylad/create-ipfs-dapp/pull/7750) Enable custom sockjs pathname for hot reloading server. ([@heygrady](https://github.com/heygrady))
-- `cra-template-typescript`
+- `ipfs-template-typescript`
   - [#8412](https://github.com/waylad/create-ipfs-dapp/pull/8412) Change arrow functions to function declarations ([@lewislbr](https://github.com/lewislbr))
-- `cra-template-typescript`, `cra-template`
+- `ipfs-template-typescript`, `ipfs-template`
   - [#8272](https://github.com/waylad/create-ipfs-dapp/pull/8272) Handle service worker error in Firefox ([@rosinghal](https://github.com/rosinghal))
 - `react-scripts`
   - [#5845](https://github.com/waylad/create-ipfs-dapp/pull/5845) Add option to provide custom ssl certificates during development ([@alexbrazier](https://github.com/alexbrazier))
 
 #### :memo: Documentation
 
-- `cra-template-typescript`, `cra-template`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+- `ipfs-template-typescript`, `ipfs-template`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
   - [#8475](https://github.com/waylad/create-ipfs-dapp/pull/8475) Correct webpack name casing ([@lewislbr](https://github.com/lewislbr))
 - Other
   - [#8437](https://github.com/waylad/create-ipfs-dapp/pull/8437) Fix navbar line break in header ([@esvyridov](https://github.com/esvyridov))
@@ -206,7 +206,7 @@ v3.3.1 is a maintenance release that includes minor bug fixes and documentation 
 
 #### :bug: Bug Fix
 
-- `cra-template`
+- `ipfs-template`
   - [#8255](https://github.com/waylad/create-ipfs-dapp/pull/8255) Add "Disallow:" to robots.txt ([@tomoyaf](https://github.com/tomoyaf))
 - `react-scripts`
   - [#8281](https://github.com/waylad/create-ipfs-dapp/pull/8281) Fix sass importLoaders ([@mariusc23](https://github.com/mariusc23))
@@ -223,14 +223,14 @@ v3.3.1 is a maintenance release that includes minor bug fixes and documentation 
 
 - `react-error-overlay`
   - [#6548](https://github.com/waylad/create-ipfs-dapp/pull/6548) Add helpful message to the footer ([@pyrogenic](https://github.com/pyrogenic))
-- `cra-template-typescript`
+- `ipfs-template-typescript`
   - [#8177](https://github.com/waylad/create-ipfs-dapp/pull/8177) Remove React.FC from Typescript template ([@Retsam](https://github.com/Retsam))
-- `cra-template-typescript`, `cra-template`, `react-scripts`
+- `ipfs-template-typescript`, `ipfs-template`, `react-scripts`
   - [#8219](https://github.com/waylad/create-ipfs-dapp/pull/8219) Add template support for any package.json keys (#8082) ([@tomvalorsa](https://github.com/tomvalorsa))
 - `create-ipfs-dapp`
   - [#8298](https://github.com/waylad/create-ipfs-dapp/pull/8298) Support shorthand scoped templates ([@kevin940726](https://github.com/kevin940726))
   - [#8168](https://github.com/waylad/create-ipfs-dapp/pull/8168) Add current version and bin location to --info output ([@heyimalex](https://github.com/heyimalex))
-- `cra-template-typescript`, `cra-template`
+- `ipfs-template-typescript`, `ipfs-template`
   - [#8194](https://github.com/waylad/create-ipfs-dapp/pull/8194) Replace favicon in templates ([@heyimalex](https://github.com/heyimalex))
 - `eslint-config-react-app`
   - [#7803](https://github.com/waylad/create-ipfs-dapp/pull/7803) Remove error for @typescript-eslint/no-namespace ([@szhu](https://github.com/szhu))
@@ -330,17 +330,17 @@ v3.3.0 is a minor release that adds new features, including custom templates and
 
 You can now create a new app using custom templates.
 
-We've published our existing templates as [`cra-template`](https://github.com/waylad/create-ipfs-dapp/tree/main/packages/cra-template) and [`cra-template-typescript`](https://github.com/waylad/create-ipfs-dapp/tree/main/packages/cra-template-typescript), but we expect to see many great templates from the community over the coming weeks.
+We've published our existing templates as [`ipfs-template`](https://github.com/waylad/create-ipfs-dapp/tree/main/packages/ipfs-template) and [`ipfs-template-typescript`](https://github.com/waylad/create-ipfs-dapp/tree/main/packages/ipfs-template-typescript), but we expect to see many great templates from the community over the coming weeks.
 
-The below command shows how you can create a new app with `cra-template-typescript`.
+The below command shows how you can create a new app with `ipfs-template-typescript`.
 
 ```sh
 npx create-ipfs-dapp my-app --template typescript
 ```
 
-Note that you can omit the prefix `cra-template-` when specifying which template you would like. For TypeScript users, we're deprecating `--typescript` in favour of `--template typescript`.
+Note that you can omit the prefix `ipfs-template-` when specifying which template you would like. For TypeScript users, we're deprecating `--typescript` in favour of `--template typescript`.
 
-If you don't set a template, we'll create your new app with `cra-template` - which is just a new name for our base template.
+If you don't set a template, we'll create your new app with `ipfs-template` - which is just a new name for our base template.
 
 ### Optional Chaining and Nullish Coalescing Operators
 
@@ -396,7 +396,7 @@ We've removed this rule as it is not compatible with Prettier. If you rely on th
   - [#7438](https://github.com/waylad/create-ipfs-dapp/pull/7438) Add optional chaining and nullish coalescing operators support ([@renatoagds](https://github.com/renatoagds))
 - `babel-preset-react-app`, `react-dev-utils`
   - [#7817](https://github.com/waylad/create-ipfs-dapp/pull/7817) Add numeric separator support ([@tharun208](https://github.com/tharun208))
-- `cra-template-typescript`, `cra-template`, `create-ipfs-dapp`, `react-scripts`
+- `ipfs-template-typescript`, `ipfs-template`, `create-ipfs-dapp`, `react-scripts`
   - [#7716](https://github.com/waylad/create-ipfs-dapp/pull/7716) Add template support ([@mrmckeb](https://github.com/mrmckeb))
 
 #### :boom: Breaking Change
@@ -423,7 +423,7 @@ We've removed this rule as it is not compatible with Prettier. If you rely on th
 
 #### :nail_care: Enhancement
 
-- `cra-template-typescript`, `cra-template`
+- `ipfs-template-typescript`, `ipfs-template`
   - [#8005](https://github.com/waylad/create-ipfs-dapp/pull/8005) Prefix apple-touch-icon links with PUBLIC_URL ([@benblank](https://github.com/benblank))
   - [#7881](https://github.com/waylad/create-ipfs-dapp/pull/7881) Add @testing-library to the default templates ([@kentcdodds](https://github.com/kentcdodds))
 - `react-scripts`
@@ -433,7 +433,7 @@ We've removed this rule as it is not compatible with Prettier. If you rely on th
   - [#6753](https://github.com/waylad/create-ipfs-dapp/pull/6753) Add Service-Worker header to checkValidServiceWorker ([@darthmaim](https://github.com/darthmaim))
   - [#7832](https://github.com/waylad/create-ipfs-dapp/pull/7832) feat: add additional Jest keys to whitelist ([@mrmckeb](https://github.com/mrmckeb))
   - [#7022](https://github.com/waylad/create-ipfs-dapp/pull/7022) Fix node_modules sourcemap config (which will fix VSCode debugging of CRA apps) ([@justingrant](https://github.com/justingrant))
-- `cra-template`
+- `ipfs-template`
   - [#7931](https://github.com/waylad/create-ipfs-dapp/pull/7931) No spinning React logo if `prefers-reduced-motion` ([@donavon](https://github.com/donavon))
 - `create-ipfs-dapp`, `react-error-overlay`
   - [#7052](https://github.com/waylad/create-ipfs-dapp/pull/7052) Dark scheme overlay ([@Fabianopb](https://github.com/Fabianopb))
@@ -487,14 +487,14 @@ We've removed this rule as it is not compatible with Prettier. If you rely on th
   - [#7844](https://github.com/waylad/create-ipfs-dapp/pull/7844) added e2e test for checking typescript template with unsupported node ([@awaseem](https://github.com/awaseem))
   - [#7882](https://github.com/waylad/create-ipfs-dapp/pull/7882) refactor: remove double coerce ([@mrmckeb](https://github.com/mrmckeb))
   - [#7880](https://github.com/waylad/create-ipfs-dapp/pull/7880) Pass through fully specified template name ([@iansu](https://github.com/iansu))
-- `cra-template-typescript`
+- `ipfs-template-typescript`
   - [#7944](https://github.com/waylad/create-ipfs-dapp/pull/7944) Make base and TypeScript templates consistent ([@suprj](https://github.com/suprj))
 - `create-ipfs-dapp`, `react-dev-utils`, `react-scripts`
   - [#7773](https://github.com/waylad/create-ipfs-dapp/pull/7773) Temporarily disable Windows in CI ([@ianschmitz](https://github.com/ianschmitz))
 
 #### :hammer: Underlying Tools
 
-- `babel-preset-react-app`, `cra-template-typescript`, `cra-template`, `create-ipfs-dapp`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+- `babel-preset-react-app`, `ipfs-template-typescript`, `ipfs-template`, `create-ipfs-dapp`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
   - [#8024](https://github.com/waylad/create-ipfs-dapp/pull/8024) Bump dependencies ([@ianschmitz](https://github.com/ianschmitz))
 - `create-ipfs-dapp`, `react-dev-utils`, `react-scripts`
   - [#7988](https://github.com/waylad/create-ipfs-dapp/pull/7988) Bump webpack-dev-server ([@ianschmitz](https://github.com/ianschmitz))
@@ -508,7 +508,7 @@ We've removed this rule as it is not compatible with Prettier. If you rely on th
   - [#7870](https://github.com/waylad/create-ipfs-dapp/pull/7870) Fix eslint complaints in build.js ([@andriijas](https://github.com/andriijas))
   - [#7857](https://github.com/waylad/create-ipfs-dapp/pull/7857) feat: upgrade terser & enable parallel minification in wsl ([@endiliey](https://github.com/endiliey))
   - [#7856](https://github.com/waylad/create-ipfs-dapp/pull/7856) Move unused eslint webpack import into @remove-on-eject block ([@mrseanbaines](https://github.com/mrseanbaines))
-- `babel-preset-react-app`, `cra-template-typescript`, `create-ipfs-dapp`, `react-app-polyfill`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
+- `babel-preset-react-app`, `ipfs-template-typescript`, `create-ipfs-dapp`, `react-app-polyfill`, `react-dev-utils`, `react-error-overlay`, `react-scripts`
   - [#7951](https://github.com/waylad/create-ipfs-dapp/pull/7951) Fix CI ([@ianschmitz](https://github.com/ianschmitz))
 - `react-dev-utils`
   - [#7910](https://github.com/waylad/create-ipfs-dapp/pull/7910) Update open ([@andriijas](https://github.com/andriijas))
