@@ -411,7 +411,7 @@ function run(
       'react',
       'react-dom',
       'buffer',
-      'ipfs-http-client@55.0.0',
+      'ipfs-http-client',
       packageToInstall,
     ];
 
@@ -850,7 +850,7 @@ function checkAppName(appName) {
     'react-dom',
     'react-scripts',
     'buffer',
-    'ipfs-http-client@55.0.0',
+    'ipfs-http-client',
   ].sort();
   if (dependencies.includes(appName)) {
     console.error(
@@ -907,7 +907,7 @@ function setCaretRangeForRuntimeDeps(packageName) {
   makeCaretRange(packageJson.dependencies, 'react');
   makeCaretRange(packageJson.dependencies, 'react-dom');
   makeCaretRange(packageJson.dependencies, 'buffer');
-  makeCaretRange(packageJson.dependencies, 'ipfs-http-client@55.0.0');
+  makeCaretRange(packageJson.dependencies, 'ipfs-http-client');
 
   fs.writeFileSync(packagePath, JSON.stringify(packageJson, null, 2) + os.EOL);
 }
