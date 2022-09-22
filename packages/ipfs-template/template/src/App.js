@@ -1,6 +1,6 @@
 import { Buffer } from 'buffer/';
 import { create } from 'ipfs-http-client';
-import { react, useState } from 'react';
+import { useState } from 'react';
 
 import './App.css';
 
@@ -66,13 +66,13 @@ const App = () => {
             >
               <span>
                 <svg>
-                  <use xlinkHref="/img/sprites.svg#ipfs" />
+                  <use xlinkHref="/sprites.svg#ipfs" />
                 </svg>
                 <svg>
-                  <use xlinkHref="/img/sprites.svg#loader" />
+                  <use xlinkHref="/sprites.svg#loader" />
                 </svg>
                 <svg>
-                  <use xlinkHref="/img/sprites.svg#check" />
+                  <use xlinkHref="/sprites.svg#check" />
                 </svg>
               </span>
 
@@ -105,7 +105,7 @@ const App = () => {
               onClick={() => navigator.clipboard.writeText(`ipfs://${url}`)}
             >
               <svg>
-                <use xlinkHref="/img/sprites.svg#copy" />
+                <use xlinkHref="/sprites.svg#copy" />
               </svg>
             </div>
           </div>
@@ -122,7 +122,7 @@ const App = () => {
               }
             >
               <svg>
-                <use xlinkHref="/img/sprites.svg#copy" />
+                <use xlinkHref="/sprites.svg#copy" />
               </svg>
             </div>
           </div>

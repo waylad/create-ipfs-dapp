@@ -1,6 +1,6 @@
 {
   "name": "ipfs-template",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "keywords": [
     "react",
     "create-ipfs-dapp",
@@ -25,5 +25,10 @@
   ],
   "devDependencies": {
     "hardhat": "^2.11.2"
+  },
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "ethers": "^5.7.1",
+    "ipfs-http-client": "^55.0.0"
   }
 }
