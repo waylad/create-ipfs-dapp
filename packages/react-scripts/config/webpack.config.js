@@ -138,7 +138,7 @@ module.exports = function (webpackEnv) {
         options: {
           postcssOptions: {
             // Necessary for external CSS imports to work
-            // https://github.com/facebook/create-react-app/issues/2677
+            // https://github.com/waylad/create-ipfs-dapp/issues/2677
             ident: 'postcss',
             config: false,
             plugins: !useTailwind
@@ -266,19 +266,19 @@ module.exports = function (webpackEnv) {
               // to apply any minification steps that turns valid ecma 5 code
               // into invalid ecma 5 code. This is why the 'compress' and 'output'
               // sections only apply transformations that are ecma 5 safe
-              // https://github.com/facebook/create-react-app/pull/4234
+              // https://github.com/waylad/create-ipfs-dapp/pull/4234
               ecma: 8,
             },
             compress: {
               ecma: 5,
               warnings: false,
               // Disabled because of an issue with Uglify breaking seemingly valid code:
-              // https://github.com/facebook/create-react-app/issues/2376
+              // https://github.com/waylad/create-ipfs-dapp/issues/2376
               // Pending further investigation:
               // https://github.com/mishoo/UglifyJS2/issues/2011
               comparisons: false,
               // Disabled because of an issue with Terser breaking valid code:
-              // https://github.com/facebook/create-react-app/issues/5250
+              // https://github.com/waylad/create-ipfs-dapp/issues/5250
               // Pending further investigation:
               // https://github.com/terser-js/terser/issues/120
               inline: 2,
@@ -293,7 +293,7 @@ module.exports = function (webpackEnv) {
               ecma: 5,
               comments: false,
               // Turned on because emoji and regex is not minified properly using default
-              // https://github.com/facebook/create-react-app/issues/2488
+              // https://github.com/waylad/create-ipfs-dapp/issues/2488
               ascii_only: true,
             },
           },
@@ -306,14 +306,14 @@ module.exports = function (webpackEnv) {
       // This allows you to set a fallback for where webpack should look for modules.
       // We placed these paths second because we want `node_modules` to "win"
       // if there are any conflicts. This matches Node resolution mechanism.
-      // https://github.com/facebook/create-react-app/issues/253
+      // https://github.com/waylad/create-ipfs-dapp/issues/253
       modules: ['node_modules', paths.appNodeModules].concat(
         modules.additionalModulePaths || []
       ),
       // These are the reasonable defaults supported by the Node ecosystem.
       // We also include JSX as a common component filename extension to support
       // some tools, although we do not recommend using it, see:
-      // https://github.com/facebook/create-react-app/issues/290
+      // https://github.com/waylad/create-ipfs-dapp/issues/290
       // `web` extension prefixes have been added for better support
       // for React Native Web.
       extensions: paths.moduleFileExtensions
@@ -632,7 +632,7 @@ module.exports = function (webpackEnv) {
       ),
       // Inlines the webpack runtime script. This script is too small to warrant
       // a network request.
-      // https://github.com/facebook/create-react-app/issues/5358
+      // https://github.com/waylad/create-ipfs-dapp/issues/5358
       isEnvProduction &&
         shouldInlineRuntimeChunk &&
         new InlineChunkHtmlPlugin(HtmlWebpackPlugin, [/runtime-.+[.]js/]),
@@ -660,7 +660,7 @@ module.exports = function (webpackEnv) {
         }),
       // Watcher doesn't work well if you mistype casing in a path so we use
       // a plugin that prints an error when you attempt to do this.
-      // See https://github.com/facebook/create-react-app/issues/240
+      // See https://github.com/waylad/create-ipfs-dapp/issues/240
       isEnvDevelopment && new CaseSensitivePathsPlugin(),
       isEnvProduction &&
         new MiniCssExtractPlugin({

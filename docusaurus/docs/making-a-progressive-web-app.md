@@ -17,18 +17,18 @@ your service worker and inject into it a list of URLs to
 [precache](https://developers.google.com/web/tools/workbox/guides/precache-files).
 
 If you start a new project using one of the PWA [custom
-templates](https://create-react-app.dev/docs/custom-templates/), you'll get a
+templates](https://create-ipfs-dapp.dev/docs/custom-templates/), you'll get a
 `src/service-worker.js` file that serves as a good starting point for an
 offline-first service worker:
 
 ```sh
-npx create-react-app my-app --template cra-template-pwa
+npx create-ipfs-dapp my-app --template cra-template-pwa
 ```
 
 The TypeScript equivalent is:
 
 ```sh
-npx create-react-app my-app --template cra-template-pwa-typescript
+npx create-ipfs-dapp my-app --template cra-template-pwa-typescript
 ```
 
 If you know that you won't be using service workers, or if you'd prefer to use a
@@ -66,7 +66,7 @@ web pages, and provide an engaging mobile experience:
   app icon and all. This eliminates the need for the app store.
 
 However, they [can make debugging deployments more
-challenging](https://github.com/facebook/create-react-app/issues/2398).
+challenging](https://github.com/waylad/create-ipfs-dapp/issues/2398).
 
 The
 [`workbox-webpack-plugin`](https://developer.chrome.com/docs/workbox/modules/workbox-webpack-plugin/)
@@ -115,7 +115,7 @@ following into account:
 
 1. After the initial caching is done, the [service worker lifecycle](https://developers.google.com/web/fundamentals/primers/service-workers/lifecycle)
    controls when updated content ends up being shown to users. In order to guard against
-   [race conditions with lazy-loaded content](https://github.com/facebook/create-react-app/issues/3613#issuecomment-353467430),
+   [race conditions with lazy-loaded content](https://github.com/waylad/create-ipfs-dapp/issues/3613#issuecomment-353467430),
    the default behavior is to conservatively keep the updated service worker in the "[waiting](https://developers.google.com/web/fundamentals/primers/service-workers/lifecycle#waiting)"
    state. This means that users will end up seeing older content until they close (reloading is not
    enough) their existing, open tabs. See [this blog post](https://jeffy.info/2018/10/10/sw-in-c-r-a.html)
@@ -147,7 +147,7 @@ following into account:
 
 1. If you _need_ to test your offline-first service worker locally, build
    the application (using `npm run build`) and run a standard http server from your
-   build directory. After running the build script, `create-react-app` will give
+   build directory. After running the build script, `create-ipfs-dapp` will give
    instructions for one way to test your production build locally and the [deployment instructions](deployment.md) have
    instructions for using other methods. _Be sure to always use an
    incognito window to avoid complications with your browser cache._

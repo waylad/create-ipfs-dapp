@@ -1,5 +1,5 @@
 #
-# Azure Pipelines job for building and testing create-react-app on Linux, Windows, and macOS.
+# Azure Pipelines job for building and testing create-ipfs-dapp on Linux, Windows, and macOS.
 #
 
 parameters:
@@ -24,7 +24,7 @@ jobs:
         displayName: 'Initialize Git config'
 
       - checkout: self
-        path: create-react-app
+        path: create-ipfs-dapp
 
       - task: NodeTool@0
         inputs:

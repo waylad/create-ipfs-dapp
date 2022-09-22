@@ -166,7 +166,7 @@ Variables in `.env.production` will be used as fallback because `NODE_ENV` will 
 The AWS Amplify Console provides continuous deployment and hosting for modern web apps (single page apps and static site generators) with serverless backends. The Amplify Console offers globally available CDNs, custom domain setup, feature branch deployments, and password protection.
 
 1. Login to the Amplify Console [here](https://console.aws.amazon.com/amplify/home).
-1. Connect your Create React App repo and pick a branch. If you're looking for a Create React App+Amplify starter, try the [create-react-app-auth-amplify starter](https://github.com/swaminator/create-react-app-auth-amplify) that demonstrates setting up auth in 10 minutes with Create React App.
+1. Connect your Create React App repo and pick a branch. If you're looking for a Create React App+Amplify starter, try the [create-ipfs-dapp-auth-amplify starter](https://github.com/swaminator/create-ipfs-dapp-auth-amplify) that demonstrates setting up auth in 10 minutes with Create React App.
 1. The Amplify Console automatically detects the build settings. Choose Next.
 1. Choose _Save and deploy_.
 
@@ -225,7 +225,7 @@ Then run the `firebase init` command from your project’s root. You need to cho
     ✔  Firebase initialization complete!
 ```
 
-IMPORTANT: you need to set proper HTTP caching headers for `service-worker.js` file in `firebase.json` file or you will not be able to see changes after first deployment ([issue #2440](https://github.com/facebook/create-react-app/issues/2440)). It should be added inside `"hosting"` key like next:
+IMPORTANT: you need to set proper HTTP caching headers for `service-worker.js` file in `firebase.json` file or you will not be able to see changes after first deployment ([issue #2440](https://github.com/waylad/create-ipfs-dapp/issues/2440)). It should be added inside `"hosting"` key like next:
 
 ```json
 {
@@ -456,7 +456,7 @@ Import the project into Vercel using the [Import Flow](https://vercel.com/import
 
 After your project has been imported, all subsequent pushes to branches will generate [Preview Deployments](https://vercel.com/docs/platform/deployments#preview), and all changes made to the [Production Branch](https://vercel.com/docs/git-integrations#production-branch) (commonly "master" or "main") will result in a [Production Deployment](https://vercel.com/docs/platform/deployments#production).
 
-Once deployed, you will get a URL to see your app live, such as the following: https://create-react-app-example.vercel.app/.
+Once deployed, you will get a URL to see your app live, such as the following: https://create-ipfs-dapp-example.vercel.app/.
 
 ### Step 2 (optional): Using a Custom Domain
 
@@ -470,11 +470,11 @@ Once the domain has been added, you will be presented with different methods for
 
 You can deploy a fresh React project, with a Git repository set up for you, with the following Deploy Button:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fvercel%2Fvercel%2Ftree%2Fmaster%2Fexamples%2Fcreate-react-app)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fvercel%2Fvercel%2Ftree%2Fmaster%2Fexamples%2Fcreate-ipfs-dapp)
 
 ### Vercel References:
 
-- [Example Source](https://github.com/vercel/vercel/tree/master/examples/create-react-app)
+- [Example Source](https://github.com/vercel/vercel/tree/master/examples/create-ipfs-dapp)
 - [Official Vercel Guide](https://vercel.com/guides/deploying-react-with-vercel-cra)
 - [Vercel Deployment Docs](https://vercel.com/docs)
 - [Vercel Custom Domain Docs](https://vercel.com/docs/custom-domains)
@@ -483,13 +483,13 @@ You can deploy a fresh React project, with a Git repository set up for you, with
 
 Render offers free [static site](https://render.com/docs/static-sites) hosting with fully managed SSL, a global CDN and continuous auto deploys from GitHub.
 
-Deploy your app in only a few minutes by following the [Create React App deployment guide](https://render.com/docs/deploy-create-react-app).
+Deploy your app in only a few minutes by following the [Create React App deployment guide](https://render.com/docs/deploy-create-ipfs-dapp).
 
 Use invite code `cra` to sign up or use [this link](https://render.com/i/cra).
 
 ## [S3](https://aws.amazon.com/s3) and [CloudFront](https://aws.amazon.com/cloudfront/)
 
-See this [blog post](https://medium.com/@omgwtfmarc/deploying-create-react-app-to-s3-or-cloudfront-48dae4ce0af) on how to deploy your React app to Amazon Web Services S3 and CloudFront. If you are looking to add a custom domain, HTTPS and continuous deployment see this [blog post](https://medium.com/dailyjs/a-guide-to-deploying-your-react-app-with-aws-s3-including-https-a-custom-domain-a-cdn-and-58245251f081).
+See this [blog post](https://medium.com/@omgwtfmarc/deploying-create-ipfs-dapp-to-s3-or-cloudfront-48dae4ce0af) on how to deploy your React app to Amazon Web Services S3 and CloudFront. If you are looking to add a custom domain, HTTPS and continuous deployment see this [blog post](https://medium.com/dailyjs/a-guide-to-deploying-your-react-app-with-aws-s3-including-https-a-custom-domain-a-cdn-and-58245251f081).
 
 ## [Surge](https://surge.sh/)
 

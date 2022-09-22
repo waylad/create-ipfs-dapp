@@ -92,7 +92,7 @@ npm test -w babel-plugin-named-asset-import
 npm test -w confusing-browser-globals
 
 # ******************************************************************************
-# First, test the create-react-app development environment.
+# First, test the create-ipfs-dapp development environment.
 # This does not affect our users but makes sure we can develop it.
 # ******************************************************************************
 
@@ -117,17 +117,17 @@ npm start -- --smoke-test
 publishToLocalRegistry
 
 # ******************************************************************************
-# Install react-scripts prerelease via create-react-app prerelease.
+# Install react-scripts prerelease via create-ipfs-dapp prerelease.
 # ******************************************************************************
 
 # Install the app in a temporary location
 cd $temp_app_path
-npx create-react-app test-app
+npx create-ipfs-dapp test-app
 
 # TODO: verify we installed prerelease
 
 # ******************************************************************************
-# Now that we used create-react-app to create an app depending on react-scripts,
+# Now that we used create-ipfs-dapp to create an app depending on react-scripts,
 # let's make sure all npm scripts are in the working state.
 # ******************************************************************************
 

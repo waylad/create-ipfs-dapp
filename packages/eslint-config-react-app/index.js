@@ -215,13 +215,13 @@ module.exports = {
         object: 'require',
         property: 'ensure',
         message:
-          'Please use import() instead. More info: https://facebook.github.io/create-react-app/docs/code-splitting',
+          'Please use import() instead. More info: https://facebook.github.io/create-ipfs-dapp/docs/code-splitting',
       },
       {
         object: 'System',
         property: 'import',
         message:
-          'Please use import() instead. More info: https://facebook.github.io/create-react-app/docs/code-splitting',
+          'Please use import() instead. More info: https://facebook.github.io/create-ipfs-dapp/docs/code-splitting',
       },
     ],
     'getter-return': 'warn',
@@ -247,7 +247,7 @@ module.exports = {
     ],
     'react/no-danger-with-children': 'warn',
     // Disabled because of undesirable warnings
-    // See https://github.com/facebook/create-react-app/issues/5204 for
+    // See https://github.com/waylad/create-ipfs-dapp/issues/5204 for
     // blockers until its re-enabled
     // 'react/no-deprecated': 'warn',
     'react/no-direct-mutation-state': 'warn',

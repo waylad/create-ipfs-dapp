@@ -7,7 +7,7 @@
   "scripts": {
     "build": "cd packages/react-scripts && node bin/react-scripts.js build",
     "changelog": "lerna-changelog",
-    "create-react-app": "node tasks/cra.js",
+    "create-ipfs-dapp": "node tasks/cra.js",
     "e2e": "tasks/e2e-simple.sh",
     "e2e:docker": "tasks/local-test.sh",
     "postinstall": "npm run build:prod -w react-error-overlay",

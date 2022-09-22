@@ -51,4 +51,4 @@ To avoid having to set the environment variable each time, you can either includ
 ```
 
 Or you can create a `.env` file with `HTTPS=true` set.
-[Learn more about environment variables in CRA](https://create-react-app.dev/docs/adding-custom-environment-variables).
+[Learn more about environment variables in CRA](https://create-ipfs-dapp.dev/docs/adding-custom-environment-variables).

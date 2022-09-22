@@ -93,7 +93,7 @@ const handleRuntimeError =
         )
       ) {
         // Deduplicate identical errors.
-        // This fixes https://github.com/facebook/create-react-app/issues/3011.
+        // This fixes https://github.com/waylad/create-ipfs-dapp/issues/3011.
         // eslint-disable-next-line no-unsafe-finally
         return;
       }

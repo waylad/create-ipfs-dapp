@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
+    "url": "https://github.com/waylad/create-ipfs-dapp.git",
     "directory": "packages/react-error-overlay"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/waylad/create-ipfs-dapp/issues"
   },
   "keywords": [
     "overlay",

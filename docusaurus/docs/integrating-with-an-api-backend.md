@@ -9,12 +9,12 @@ using `fetch()` to access it.
 
 ## Node
 
-Check out [this tutorial](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/).
+Check out [this tutorial](https://www.fullstackreact.com/articles/using-create-ipfs-dapp-with-a-server/).
 You can find the companion GitHub repository [here](https://github.com/fullstackreact/food-lookup-demo).
 
 ## Ruby on Rails
 
-Check out [this tutorial](https://www.fullstackreact.com/articles/how-to-get-create-react-app-to-work-with-your-rails-api/).
+Check out [this tutorial](https://www.fullstackreact.com/articles/how-to-get-create-ipfs-dapp-to-work-with-your-rails-api/).
 You can find the companion GitHub repository [here](https://github.com/fullstackreact/food-lookup-demo-rails).
 
 ## API Platform (PHP and Symfony)

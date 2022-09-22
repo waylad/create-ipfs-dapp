@@ -47,8 +47,8 @@ Please also provide a **test plan**, i.e. specify how you verified that your add
 
 ## Folder Structure of Create React App
 
-`create-react-app` is a monorepo, meaning it is divided into independent sub-packages.<br>
-These packages can be found in the [`packages/`](https://github.com/facebook/create-react-app/tree/main/packages) directory.
+`create-ipfs-dapp` is a monorepo, meaning it is divided into independent sub-packages.<br>
+These packages can be found in the [`packages/`](https://github.com/waylad/create-ipfs-dapp/tree/main/packages) directory.
 
 ### Overview of directory structure
 
@@ -59,7 +59,7 @@ packages/
   confusing-browser-globals/
   cra-template/
   cra-template-typescript/
-  create-react-app/
+  create-ipfs-dapp/
   eslint-config-react-app/
   react-app-polyfill/
   react-dev-utils/
@@ -69,27 +69,27 @@ packages/
 
 ### Package Descriptions
 
-#### [babel-preset-react-app](https://github.com/facebook/create-react-app/tree/main/packages/babel-preset-react-app)
+#### [babel-preset-react-app](https://github.com/waylad/create-ipfs-dapp/tree/main/packages/babel-preset-react-app)
 
 This package is a babel preset intended to be used with `react-scripts`.<br>
 It targets platforms that React is designed to support (IE 11+) and enables experimental features used heavily at Facebook.<br>
-This package is enabled by default for all `create-react-app` scaffolded applications.
+This package is enabled by default for all `create-ipfs-dapp` scaffolded applications.
 
-#### [create-react-app](https://github.com/facebook/create-react-app/tree/main/packages/create-react-app)
+#### [create-ipfs-dapp](https://github.com/waylad/create-ipfs-dapp/tree/main/packages/create-ipfs-dapp)
 
 The global CLI command code can be found in this directory, and shouldn't often be changed. It should run on Node 0.10+.
 
-#### [eslint-config-react-app](https://github.com/facebook/create-react-app/tree/main/packages/eslint-config-react-app)
+#### [eslint-config-react-app](https://github.com/waylad/create-ipfs-dapp/tree/main/packages/eslint-config-react-app)
 
 This package contains a conservative set of rules focused on making errors apparent and enforces no style rules.<br>
-This package is enabled by default for all `create-react-app` scaffolded applications.
+This package is enabled by default for all `create-ipfs-dapp` scaffolded applications.
 
-#### [react-dev-utils](https://github.com/facebook/create-react-app/tree/main/packages/react-dev-utils)
+#### [react-dev-utils](https://github.com/waylad/create-ipfs-dapp/tree/main/packages/react-dev-utils)
 
 This package contains utilities used for `react-scripts` and sibling packages.<br>
 Its main purpose is to conceal code which the user shouldn't be burdened with upon ejecting.
 
-#### [react-scripts](https://github.com/facebook/create-react-app/tree/main/packages/react-scripts)
+#### [react-scripts](https://github.com/waylad/create-ipfs-dapp/tree/main/packages/react-scripts)
 
 This package is the heart of the project, which contains the scripts for setting up the development server, building production builds, configuring all software used, etc.<br>
 All functionality must be retained (and configuration given to the user) if they choose to eject.
@@ -98,16 +98,16 @@ All functionality must be retained (and configuration given to the user) if they
 
 You will need `npm@7` and `yarn@1` in order to bootstrap and test a local copy of this repo.
 
-1. Clone the repo with `git clone https://github.com/facebook/create-react-app`
+1. Clone the repo with `git clone https://github.com/waylad/create-ipfs-dapp`
 
-2. Run `npm install` in the root `create-react-app` folder.
+2. Run `npm install` in the root `create-ipfs-dapp` folder.
 
 Once it is done, you can modify any file locally and run `npm start`, `npm test` or `npm run build` like you can in a generated project. It will serve the application from the files located in `packages/cra-template/template`.
 
 If you want to try out the end-to-end flow with the global CLI, you can do this too:
 
 ```sh
-npx create-react-app my-app
+npx create-ipfs-dapp my-app
 cd my-app
 ```
 
@@ -121,7 +121,7 @@ More detailed information are in the dedicated [README](/test/README.md).
 
 ### CI testing with private packages
 
-**create-react-app** relies on main registry to fetch all dependencies, but, if you are in the need to usage of custom private packages that need to be fetch while running E2E test you might need a different configuration.
+**create-ipfs-dapp** relies on main registry to fetch all dependencies, but, if you are in the need to usage of custom private packages that need to be fetch while running E2E test you might need a different configuration.
 
 #### Customizing E2E registry configuration
 
@@ -147,10 +147,10 @@ By default git would use `CRLF` line endings which would cause the scripts to fa
 
 ## Cutting a Release
 
-1. Tag all merged pull requests that go into the release with the relevant milestone. Each merged PR should also be labeled with one of the [labels](https://github.com/facebook/create-react-app/labels) named `tag: ...` to indicate what kind of change it is. **Make sure all breaking changes are correctly labelled with `tag: breaking change`.**
+1. Tag all merged pull requests that go into the release with the relevant milestone. Each merged PR should also be labeled with one of the [labels](https://github.com/waylad/create-ipfs-dapp/labels) named `tag: ...` to indicate what kind of change it is. **Make sure all breaking changes are correctly labelled with `tag: breaking change`.**
 2. Close the milestone and create a new one for the next release.
-3. In most releases, only `react-scripts` needs to be released. If you don’t have any changes to the `packages/create-react-app` folder, you don’t need to bump its version or publish it (the publish script will publish only changed packages).
-4. Note that files in `packages/create-react-app` should be modified with extreme caution. Since it’s a global CLI, any version of `create-react-app` (global CLI) including very old ones should work with the latest version of `react-scripts`.
+3. In most releases, only `react-scripts` needs to be released. If you don’t have any changes to the `packages/create-ipfs-dapp` folder, you don’t need to bump its version or publish it (the publish script will publish only changed packages).
+4. Note that files in `packages/create-ipfs-dapp` should be modified with extreme caution. Since it’s a global CLI, any version of `create-ipfs-dapp` (global CLI) including very old ones should work with the latest version of `react-scripts`.
 5. Pull the latest changes from GitHub, run `npm ci`.
 6. Create a change log entry for the release:
 

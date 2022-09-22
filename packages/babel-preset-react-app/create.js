@@ -104,10 +104,10 @@ module.exports = function (api, opts, env) {
     plugins: [
       // Strip flow types before any other transform, emulating the behavior
       // order as-if the browser supported all of the succeeding features
-      // https://github.com/facebook/create-react-app/pull/5182
+      // https://github.com/waylad/create-ipfs-dapp/pull/5182
       // We will conditionally enable this plugin below in overrides as it clashes with
       // @babel/plugin-proposal-decorators when using TypeScript.
-      // https://github.com/facebook/create-react-app/issues/5741
+      // https://github.com/waylad/create-ipfs-dapp/issues/5741
       isFlowEnabled && [
         require('@babel/plugin-transform-flow-strip-types').default,
         false,
@@ -117,12 +117,12 @@ module.exports = function (api, opts, env) {
       require('babel-plugin-macros'),
       // Disabled as it's handled automatically by preset-env, and `selectiveLoose` isn't
       // yet merged into babel: https://github.com/babel/babel/pull/9486
-      // Related: https://github.com/facebook/create-react-app/pull/8215
+      // Related: https://github.com/waylad/create-ipfs-dapp/pull/8215
       // [
       //   require('@babel/plugin-transform-destructuring').default,
       //   {
       //     // Use loose mode for performance:
-      //     // https://github.com/facebook/create-react-app/issues/5602
+      //     // https://github.com/waylad/create-ipfs-dapp/issues/5602
       //     loose: false,
       //     selectiveLoose: [
       //       'useState',
@@ -145,7 +145,7 @@ module.exports = function (api, opts, env) {
       ],
       // class { handleClick = () => { } }
       // Enable loose mode to use assignment instead of defineProperty
-      // See discussion in https://github.com/facebook/create-react-app/issues/4263
+      // See discussion in https://github.com/waylad/create-ipfs-dapp/issues/4263
       // Note:
       // 'loose' mode configuration must be the same for
       // * @babel/plugin-proposal-class-properties
@@ -204,7 +204,7 @@ module.exports = function (api, opts, env) {
       // Optional chaining and nullish coalescing are supported in @babel/preset-env,
       // but not yet supported in webpack due to support missing from acorn.
       // These can be removed once webpack has support.
-      // See https://github.com/facebook/create-react-app/issues/8445#issuecomment-588512250
+      // See https://github.com/waylad/create-ipfs-dapp/issues/8445#issuecomment-588512250
       require('@babel/plugin-proposal-optional-chaining').default,
       require('@babel/plugin-proposal-nullish-coalescing-operator').default,
     ].filter(Boolean),

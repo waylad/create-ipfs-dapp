@@ -95,20 +95,20 @@ module.exports = function (
     console.log('');
     console.error(
       `A template was not provided. This is likely because you're using an outdated version of ${chalk.cyan(
-        'create-react-app'
+        'create-ipfs-dapp'
       )}.`
     );
     console.error(
       `Please note that global installs of ${chalk.cyan(
-        'create-react-app'
+        'create-ipfs-dapp'
       )} are no longer supported.`
     );
     console.error(
       `You can fix this by running ${chalk.cyan(
-        'npm uninstall -g create-react-app'
+        'npm uninstall -g create-ipfs-dapp'
       )} or ${chalk.cyan(
-        'yarn global remove create-react-app'
-      )} before using ${chalk.cyan('create-react-app')} again.`
+        'yarn global remove create-ipfs-dapp'
+      )} before using ${chalk.cyan('create-ipfs-dapp')} again.`
     );
     return;
   }
@@ -292,7 +292,7 @@ module.exports = function (
     remove = 'uninstall';
     args = [
       'install',
-      '--no-audit', // https://github.com/facebook/create-react-app/issues/11174
+      '--no-audit', // https://github.com/waylad/create-ipfs-dapp/issues/11174
       '--save',
       verbose && '--verbose',
     ].filter(e => e);
