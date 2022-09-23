@@ -1,6 +1,6 @@
 # Create IPFS Dapp
 
-Demo video:
+Demo video: https://youtu.be/zvKzHPEKHyk
 
 I really like [create-react-app](https://github.com/facebook/create-react-app). You can just run `npx create-react-app` in your terminal and it will bootstrap a simple react application for you. It is used by thousands of developers around the world to easily get started ith a new react project.
 
